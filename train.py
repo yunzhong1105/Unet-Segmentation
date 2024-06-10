@@ -23,7 +23,7 @@ IMAGE_HEIGHT = 160
 IMAGE_WIDTH = 240
 PIN_MEMORY = True
 LOAD_MODEL = False
-# remember to change the 
+# remember to change the "for TUTORIAL" line
 TUTORIAL = True
 TRAIN_IMG_DIR = "data/train_images/" if TUTORIAL else "/ssd3/CVPR2023comp/track1_train_data/seg/images/train/"
 TRAIN_MASK_DIR = "data/train_masks/" if TUTORIAL else "/ssd3/CVPR2023comp/track1_train_data/seg/label/train/"
